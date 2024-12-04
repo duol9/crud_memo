@@ -19,4 +19,8 @@ public class Memo {
         this.Contents = requestDto.getContents();
     }
 
+    public void updateTitle(MemoRequestDto dto) {
+        this.title = dto.getTitle();
+    }
+
 }
